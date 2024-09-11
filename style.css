@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: black;
 }
 header{
     height: 200px;
@@ -26,9 +27,11 @@ header{
 
 }
 .logo{
-    height: 96px;
-    width: 96px;
-    background-color: lightgrey;
+    height: 150px;
+    width: 150px;
+    background-image: url(pngegg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .menu ul{
     display: flex;
@@ -57,7 +60,7 @@ main{
 .acao button {
     height: 80px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(125, 0, 0);
     color: white;
     font-size: 32px;
 }
@@ -71,15 +74,40 @@ main{
     width: 96px;
     background-color: lightgrey;
     border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imagem1{
+    background-image: url(Instagram_icon.png);
+}
+.imagem2{
+    background-image: url(facebook-13.png);
+}
+.imagem3{
+    background-image: url(youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.webp);
 }
 .destaque{
     width: 50%;
-    background-color: lightgrey;
+    background-image: url(bore.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-family: fantasy;
+}
+li{
+    color: white;
+    font-style: italic;
+}
