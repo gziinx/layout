@@ -37,7 +37,6 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: pink;
     display: flex;
 }
 .conteudo{
@@ -70,7 +69,8 @@ main{
 .social div{
     height: 96px;
     width: 96px;
-    background-color: lightgrey
+    background-color: lightgrey;
+    border-radius: 50%;
 }
 .destaque{
     width: 50%;
